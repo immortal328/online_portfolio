@@ -525,7 +525,7 @@ hr{
 }
 
 /*Mediia Query for 1024px (Laptop)*/
-@media screen and (min-width:1024px){
+@media screen and (min-width:1101px){
     .logo{
         font-size: 26px;
     }
