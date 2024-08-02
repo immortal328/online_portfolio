@@ -168,8 +168,9 @@ hr{
 }
 .aboutMe{
     width: 100vw;
-    text-align: center;   
-    background-color: #E9ECEF;
+    text-align: center; 
+    background-image: linear-gradient(white, #cfe2f5, white);
+    /* background-color: #; */
 }
 .aboutme,.edu,.project{
  
@@ -200,8 +201,9 @@ hr{
 /*Education*/
 .education{
     width: 100vw;
-    text-align: center;   
-    background-color: #e8f4f9;
+    text-align: center; 
+    background-image: linear-gradient(white, #8aaabe, white);
+    /* background-color: #; */
 }
 .educationInfo{
     margin: 0 15px;
@@ -210,11 +212,13 @@ hr{
 }
 .edu1{
     /*border: 1px solid black;*/
+    border-radius: 5px;
     display: flex;
     background-color: rgb(229, 237, 245);
     box-shadow: 2px 3px 6px 0px #000000;
 }
 .edu2{
+    border-radius: 5px;
     display: flex;
     background-color: rgb(229, 237, 245);
     margin-top: 20px;
@@ -394,10 +398,11 @@ hr{
 /*Footer*/
 
 .footer{
-    width: 100vw;
-    background-color: rgb(245, 245, 245);
-    text-align: center;
-    padding: 45px 0;
+        width: 100vw;
+            /* background-color: rgb(245, 245, 245); */
+            text-align: center;
+            padding: 20px 0;
+            background-image: linear-gradient(white, rgb(136 136 136));
 }
 .footer .div1{
     width: 100%;
@@ -424,11 +429,24 @@ hr{
     font-size: 16px;
 }
 .copyRight{
+    width: 100vw;
     text-align: center;
     padding: 5px;
-    border:1px dashed white;
     color: white;
     background-color: rgb(136 136 136);
+}
+
+.projectBg{
+    background-color: rgb(140, 210, 210);
+    border-radius: 10px;
+    margin: 5px;
+    padding-bottom: 25px;
+}
+
+.projectDetails{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 12px 10px 1px #000000;
+    border-radius: 10px;
 }
 
 /*Scroll Effect*/
